@@ -458,6 +458,7 @@ img {
 /* ---------FOOTER---------- */
 
 .footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -466,13 +467,20 @@ img {
 
 .footer > .container {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .logo.white {
+  display: inline-block;
   margin-bottom: 20px;
 
   color: var(--primary-white-color);
+}
+
+.footer-address-container {
+  width: 231px;
+  margin-right: 70px;
 }
 
 .address-text {
@@ -499,6 +507,32 @@ img {
 
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-social-container {
+  width: 206px;
+}
+
+.footer-social-text {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: var(--primary-white-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  fill: var(--primary-white-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
 }
 
 /* ------------------PORTFOLIO----------- */
