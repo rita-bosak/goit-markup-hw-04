@@ -334,6 +334,7 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-bottom: 94px;
 
   background-color: var(--grey-bg-color);
 }
@@ -412,6 +413,48 @@ img {
 .social-list-link:focus .social-list-icon {
   fill: var(--primary-white-color);
 }
+
+/* --------------CLIENTS--------------- */
+
+.clients {
+  padding-bottom: 145px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
+}
+
+.clients-list-link {
+  margin-right: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
+  flex-basis: calc(100% / 6 - var(--card-set-gap));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+}
+
+.clients-logo {
+  fill: var(--icon-color);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-list-link:hover .clients-logo,
+.clients-list-link:focus .clients-logo {
+  fill: var(--accent-color);
+}
+
 /* ---------FOOTER---------- */
 
 .footer {
@@ -497,6 +540,8 @@ img {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ----------CARD-SET-------------------- */
@@ -515,7 +560,13 @@ img {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 
   background: var(--primary-white-color);
-  outline: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
+}
+
+.examples-list-item:hover,
+.examples-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .examples-list-title {
