@@ -421,13 +421,13 @@ a {
   height: 20px;
 }
 
-.social-list-item:hover,
-.social-list-item:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-item:hover .social-list-icon,
-.social-list-item:focus .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: var(--primary-white-color);
 }
 
@@ -465,13 +465,13 @@ a {
   fill: var(--icon-color);
 }
 
-.clients-list-item:hover,
-.clients-list-item:focus {
+.clients-list-link:hover,
+.clients-list-link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-list-item:hover .clients-logo,
-.clients-list-item:focus .clients-logo {
+.clients-list-link:hover .clients-logo,
+.clients-list-link:focus .clients-logo {
   fill: var(--accent-color);
 }
 
