@@ -444,14 +444,14 @@ a {
 
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
 }
 
 .clients-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
 
 .clients-logo {
@@ -481,7 +481,8 @@ a {
 
 .footer > .container {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .logo.white {
