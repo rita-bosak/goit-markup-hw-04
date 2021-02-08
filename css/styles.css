@@ -339,7 +339,6 @@ a {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-bottom: 94px;
 
   background-color: var(--grey-bg-color);
 }
@@ -427,6 +426,7 @@ a {
 /* --------------CLIENTS--------------- */
 
 .clients {
+  padding-top: 94px;
   padding-bottom: 145px;
 }
 
@@ -481,7 +481,6 @@ a {
 
 .footer > .container {
   display: flex;
-  justify-content: flex-start;
   align-items: baseline;
 }
 
